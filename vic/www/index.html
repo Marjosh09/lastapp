@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Section</title>
+        <link rel="stylesheet" type="text/css" href="www.css/framework7.material.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/framework7.material.colors.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/my-app.css"> 
+    </head>
+   <style>
+body {
+    font-family: "Lato", sans-serif;
+    background-color: violet;
+}
+
+
+</style>
+<body class="framework7-root">
+
+<div class="views">
+    <div class="view view-main">
+    <div class="pages">
+    <div class="page-content">
+
+
+    <div id="icon"></div>
+    <div class="icon-bar" >
+     <span style="font-size:70px;cursor:pointer" onclick="openNav()">&#9776;</span>
+     <a class="active" href="zodiac.html">Zodiac sign</a>
+      </div>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<center><h1>Months</h1></center>
+  <a href="jan.html">January</a>
+  <a href="feb.html">February</a>
+  <a href="mar.html">March</a>
+  <a href="ap.html">April</a>
+  <a href="may.html">May</a>
+  <a href="jun.html">June</a>
+  <a href="jul.html">July</a>
+  <a href="aug.html">August</a>
+  <a href="sep.html">September</a>
+  <a href="oct.html">October</a>
+  <a href="nov.html">November</a>
+  <a href="dec.html">December</a>
+</div>
+        
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+</script>
+<div class="body">
+<div id="root"></div>
+<div id="first"></div>
+<div id="second"></div>
+<div id="third"></div>
+<div id="fourth"></div>
+<div id="fifth"></div>
+<div id="sixth"></div>
+<div id="seventh"></div>
+<div id="eight"></div>
+<div id="nine"></div>
+<div id="ten"></div>
+<div id="eleven"></div>
+<div id="twelve"></div>
+<div id="thirteen"></div>
+
+</div>
+    <script crossorigin type="text/javascript" src="js/react.min.js"></script>
+    <script crossorigin type="text/javascript" src="js/react-dom.min.js"></script>
+     <script crossorigin type="text/javascript" src="js/babel.min.js"></script> 
+    <script crossorigin type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- <script type="text/javascript" src="js/worker.sql.js"></script> -->
+    <!-- <script type="text/javascript" src="js/sql.js"></script> -->
+    <script type="text/jsx" src="js/process.js"></script>
+    <!-- <script type="text/javascript" src="js/sqlite.js"></script> -->
+</html>
